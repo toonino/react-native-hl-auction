@@ -1,0 +1,185 @@
+import {StyleSheet} from 'react-native';
+import {styles} from '../../shared/styles';
+
+export const autionListStyle = StyleSheet.create({
+  backgroundColorAll: {
+    backgroundColor: 'white',
+    flex: 1,
+  },
+  containerHeader: {
+    flexDirection: 'row',
+    height: 90,
+    borderBottomWidth: 0.7,
+    borderBottomColor: '#AAAAAA',
+    backgroundColor: 'white',
+    alignItems: 'center',
+  },
+  nav: {
+    flexDirection: 'column',
+    justifyContent: 'center',
+    marginLeft: '10%',
+    marginRight: 25,
+  },
+  logo: {
+    justifyContent: 'center',
+  },
+  textHeader: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  textTitle: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 24,
+    marginTop: '7%',
+  },
+
+  textMess: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginTop: '10%',
+    marginBottom: '5%',
+    marginRight: '15%',
+  },
+  textInputFindPass: {
+    height: '7%',
+    width: '84%',
+    borderBottomColor: 'black',
+    borderBottomWidth: 1,
+  },
+  mid: {
+    marginTop: 10,
+    alignSelf: 'center',
+    flex: 1,
+    marginBottom: 25,
+    height: '90%',
+  },
+  width80: {
+    width: '80%',
+  },
+  resend: {
+    fontFamily: 'Roboto',
+    fontSize: 13,
+    fontWeight: 'bold',
+    marginTop: '10%',
+  },
+  item: {
+    marginTop: 19,
+    height: 180,
+    width: 182,
+    marginRight: 15,
+  },
+  image: {
+    width: '100%',
+    height: '66%',
+  },
+  titleText: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 12,
+    marginTop: '5%',
+  },
+  viewText: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  textDate: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 11,
+    marginTop: '2%',
+    color: '#989898',
+  },
+  containerVertical: {
+    marginTop: 20,
+  },
+  itemVertical: {
+    marginBottom: 15,
+    borderRadius: 10,
+    backgroundColor: '#EFECEC',
+    height: 280,
+    justifyContent: 'center',
+  },
+  imageVertical: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 5,
+    alignSelf: 'center',
+  },
+  textItemFlatListName: {
+    fontWeight: 'bold',
+    fontSize: 18,
+    color: '#3C3C3C',
+    marginLeft: 30,
+  },
+  textItemFlatListDate: {
+    fontSize: 13,
+    color: '#717171',
+    marginLeft: 30,
+    marginTop: 'auto',
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  titleTextVertical: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 14,
+    marginTop: '5%',
+  },
+  textDateVertical: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 11,
+    marginTop: '10%',
+    color: '#989898',
+  },
+  textAuthorVertical: {
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 11,
+    marginTop: '10%',
+    color: '#989898',
+    marginRight: '5%',
+  },
+  ViewVertical: {width: '60%'},
+  searchBar: {
+    height: 40,
+    borderWidth: 1,
+    backgroundColor: '#EFEEEE',
+    width: '90%',
+    marginTop: '5%',
+    marginLeft: '2%',
+    borderRadius: 20,
+    borderColor: '#EFEEEE',
+  },
+  imageBack: {
+    marginTop: '10%',
+    width: 11,
+    height: 15,
+  },
+  imageSearchIcon: {
+    width: 15,
+    height: 15,
+  },
+  textNewsLast: {
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginTop: '3%',
+  },
+  textNewsCurrent: {
+    fontWeight: 'bold',
+    fontSize: 24,
+    marginTop: '3%',
+  },
+  textBTN: {fontSize: 17, fontWeight: 'bold', color: '#A6A5A5'},
+  textBTNClicked: {
+    fontSize: 17,
+    fontWeight: 'bold',
+    color: '#FA4A0C',
+    borderBottomColor: '#FA4A0C',
+    borderBottomWidth: 3,
+  },
+});
